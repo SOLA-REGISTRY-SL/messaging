@@ -234,6 +234,8 @@ public class GisMessage {
      public static final String CADASTRE_CHANGE_ERROR_MAX_NUMBER_OF_PARCELS_REACHED  = 
              CADASTRE_CHANGE + "030";
      
+     /** Remove new cadastre objects */
+    public static final String CADASTRE_CHANGE_TOOLTIP_REMOVE_CO  = CADASTRE_CHANGE + "031";
              
      //Cadastre redefinition
     /**Coordinates entered are not valid.*/
