@@ -450,6 +450,54 @@ public class ClientMessage {
      * clichck107 - gender must be specified.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_PASSWORD = CHECK + "107";
+    /**
+     * clichck108 - Owner name must be provided.
+     */
+    public static final String CHECK_NOTNULL_OWNER_NAME = CHECK + "108";
+    /**
+     * clichck109 - Address must be provided.
+     */
+    public static final String CHECK_NOTNULL_PARCEL_ADDRESS = CHECK + "109";
+    /**
+     * clichck110 - Address (chiefdom) must be provided.
+     */
+    public static final String CHECK_NOTNULL_CHIEFDOM_ADDRESS2 = CHECK + "110";
+    /**
+     * clichck111 - Licensed surveyor must be selected.
+     */
+    public static final String CHECK_NOTNULL_LICENSED_SURVEYOR = CHECK + "111";
+    /**
+     * clichck112 - Charting officer must be selected.
+     */
+    public static final String CHECK_NOTNULL_CHARTING_OFFICER = CHECK + "112";
+    /**
+     * clichck113 - State land clearing officer must be selected.
+     */
+    public static final String CHECK_NOTNULL_STATE_LAND_OFFICER = CHECK + "113";
+    /**
+     * clichck114 - Survey date must be provided.
+     */
+    public static final String CHECK_NOTNULL_SURVEY_DATE = CHECK + "114";
+    /**
+     * clichck115 - Survey date must be in the past.
+     */
+    public static final String CHECK_SURVEY_DATE_IN_PAST = CHECK + "115";
+    /**
+     * clichck116 - Surveying method must be selected.
+     */
+    public static final String CHECK_NOTNULL_SURVEYING_METHOD = CHECK + "116";
+    /**
+     * clichck117 - Parcel area must be greater than 0.
+     */
+    public static final String CHECK_NOTNULL_PARCEL_AREA = CHECK + "117";
+    /**
+     * clichck118 - LS No must be provided.
+     */
+    public static final String CHECK_NOTNULL_LS_NO = CHECK + "118";
+    /**
+     * clichck119 - Sub Division LS must be provided.
+     */
+    public static final String CHECK_NOTNULL_SUB_LS = CHECK + "119";
 
     // Application messages
     /**

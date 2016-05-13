@@ -236,6 +236,9 @@ public class GisMessage {
      
      /** Remove new cadastre objects */
     public static final String CADASTRE_CHANGE_TOOLTIP_REMOVE_CO  = CADASTRE_CHANGE + "031";
+    
+    /** Survey plan details */
+    public static final String CADASTRE_CHANGE_SURVEY_PLAN  = CADASTRE_CHANGE + "032";
              
      //Cadastre redefinition
     /**Coordinates entered are not valid.*/
