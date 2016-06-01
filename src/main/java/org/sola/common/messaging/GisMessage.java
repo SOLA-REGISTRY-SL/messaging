@@ -239,6 +239,11 @@ public class GisMessage {
     
     /** Survey plan details */
     public static final String CADASTRE_CHANGE_SURVEY_PLAN  = CADASTRE_CHANGE + "032";
+    
+    /**The srid of the object is {0}*/
+    public static final String CADASTRE_CHANGE_SURVEY_PLAN_SRID = CADASTRE_CHANGE + "033";
+   
+    
              
      //Cadastre redefinition
     /**Coordinates entered are not valid.*/
