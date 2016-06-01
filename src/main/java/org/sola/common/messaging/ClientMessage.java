@@ -498,7 +498,54 @@ public class ClientMessage {
      * clichck119 - Sub Division LS must be provided.
      */
     public static final String CHECK_NOTNULL_SUB_LS = CHECK + "119";
-
+    /**
+     * clichck120 - Surveyor must be selected.
+     */
+    public static final String CHECK_NOTNULL_SURVEYOR = CHECK + "120";
+    /**
+     * clichck121 - Land type must be selected.
+     */
+    public static final String CHECK_NOTNULL_LAND_TYPE = CHECK + "121";
+    /**
+     * clichck122 - Referenced name first part must be provided and survey type/service selected.
+     */
+    public static final String CHECK_NOTNULL_REF_NAME_FIRSTPART = CHECK + "122";
+    /**
+     * clichck123 - Referenced name last part must be provided.
+     */
+    public static final String CHECK_NOTNULL_REF_NAME_LASTPART = CHECK + "123";
+    /**
+     * clichck124 - Survey number must be provided.
+     */
+    public static final String CHECK_NOTNULL_SURVEY_NUMBER = CHECK + "124";
+    /**
+     * clichck125 - Correspondence file must be provided.
+     */
+    public static final String CHECK_NOTNULL_CORRESPONDENCE_FILE = CHECK + "125";
+    /**
+     * clichck126 - Computation file must be provided.
+     */
+    public static final String CHECK_NOTNULL_COMPUTATION_FILE = CHECK + "126";
+    /**
+     * clichck127 - Drawing officer must be provided.
+     */
+    public static final String CHECK_NOTNULL_DRAWN_BY = CHECK + "127";
+    /**
+     * clichck128 - Checking officer must be provided.
+     */
+    public static final String CHECK_NOTNULL_CHECKED_BY = CHECK + "128";
+    /**
+     * clichck129 - Drawing office number must be provided.
+     */
+    public static final String CHECK_NOTNULL_DRAWING_OFFICE_NUMBER = CHECK + "129";
+    /**
+     * clichck130 - Checking date must be provided.
+     */
+    public static final String CHECK_NOTNULL_CHECKING_DATE = CHECK + "130";
+    /**
+     * clichck131 - Checking date must be in the past.
+     */
+    public static final String CHECK_NOTNULL_CHECKING_DATE_IN_PAST = CHECK + "131";
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
