@@ -243,6 +243,11 @@ public class GisMessage {
     /**The srid of the object is {0}*/
     public static final String CADASTRE_CHANGE_SURVEY_PLAN_SRID = CADASTRE_CHANGE + "033";
    
+    /** Print survey plan */
+    public static final String CADASTRE_CHANGE_PRINT_SURVEY_PLAN  = CADASTRE_CHANGE + "034";
+    
+    /** Fill in survey details first. */
+    public static final String CADASTRE_CHANGE_FILLIN_SURVEY_DETAILS  = CADASTRE_CHANGE + "035";
     
              
      //Cadastre redefinition
