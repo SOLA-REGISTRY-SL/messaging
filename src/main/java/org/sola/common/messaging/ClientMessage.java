@@ -53,6 +53,7 @@ public class ClientMessage {
     private static final String PROGRESSMSG = MSG_PREFIX + "prgs";
     private static final String BULK_OPERATIONS = MSG_PREFIX + "_bulk_operations_";
     private static final String SECURITY = MSG_PREFIX + "sec";
+    
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
      * clitest001 - Unit Test Message

@@ -201,7 +201,7 @@ public class GisMessage {
     public static final String CADASTRE_TOOLTIP_REMOVE_NODE  = CADASTRE_CHANGE + "021";
 
     public static final String CADASTRE_CHANGE_POINTS_SHOW  = CADASTRE_CHANGE + "022";
-
+    
     /** Error while creating a new instance of a spatial bean.*/
      public static final String CADASTRE_CHANGE_ERROR_INITIALIZE_NEW_OBJECT  = 
              CADASTRE_CHANGE + "023";
@@ -248,6 +248,12 @@ public class GisMessage {
     
     /** Fill in survey details first. */
     public static final String CADASTRE_CHANGE_FILLIN_SURVEY_DETAILS  = CADASTRE_CHANGE + "035";
+        
+    /** gis_cadastre_change_036 - State Land Clearance has been granted  */
+    public static final String CADASTRE_CHANGE_CLEARANCE_GRANTED  = CADASTRE_CHANGE + "036";
+    
+    /** gis_cadastre_change_037 - State Land Clearance has been revoked  */
+    public static final String CADASTRE_CHANGE_CLEARANCE_REVOKED  = CADASTRE_CHANGE + "037";
     
              
      //Cadastre redefinition
