@@ -255,6 +255,17 @@ public class GisMessage {
     /** gis_cadastre_change_037 - State Land Clearance has been revoked  */
     public static final String CADASTRE_CHANGE_CLEARANCE_REVOKED  = CADASTRE_CHANGE + "037";
     
+    /** gis_cadastre_change_038 - Planning Clearance has been granted  */
+    public static final String CADASTRE_CHANGE_PLANNING_CLEARANCE_GRANTED  = CADASTRE_CHANGE + "038";
+    
+    /** gis_cadastre_change_039 - Planning Clearance has been revoked  */
+    public static final String CADASTRE_CHANGE_PLANNING_CLEARANCE_REVOKED  = CADASTRE_CHANGE + "039";
+    
+    /** gis_cadastre_change_040 - Environment Clearance has been granted  */
+    public static final String CADASTRE_CHANGE_ENVIRONMENT_CLEARANCE_GRANTED  = CADASTRE_CHANGE + "040";
+    
+    /** gis_cadastre_change_041 - Environment Clearance has been revoked  */
+    public static final String CADASTRE_CHANGE_ENVIRONMENT_CLEARANCE_REVOKED  = CADASTRE_CHANGE + "041";
              
      //Cadastre redefinition
     /**Coordinates entered are not valid.*/
