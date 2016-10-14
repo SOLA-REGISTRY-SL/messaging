@@ -753,6 +753,71 @@ public class ClientMessage {
      */
     public static final String APPLICATION_APPLICANT_DETAILS = APPLICATION + "048";
  
+    /**
+     * cliapp049 - Loading my applications...
+     */
+    public static final String APPLICATION_LOADING_MY = APPLICATION + "049";
+    
+    /**
+     * cliapp050 - Loading lodged private land applications...
+     */
+    public static final String APPLICATION_LOADING_PL_LODGED = APPLICATION + "050";
+    
+    /**
+     * cliapp051 - Loading private land applications for survey plan capturing...
+     */
+    public static final String APPLICATION_LOADING_PL_PLAN_CAPTURING = APPLICATION + "051";
+    
+    /**
+     * cliapp052 - Loading private land applications for state land clearance...
+     */
+    public static final String APPLICATION_LOADING_PL_SL_CLEARANCE = APPLICATION + "052";
+    
+    /**
+     * cliapp053 - Loading private land applications for planning clearance...
+     */
+    public static final String APPLICATION_LOADING_PL_PLANNING_CLEARANCE = APPLICATION + "053";
+    
+    /**
+     * cliapp054 - Loading private land applications for environment clearance...
+     */
+    public static final String APPLICATION_LOADING_PL_ENV_CLEARANCE = APPLICATION + "054";
+    
+    /**
+     * cliapp055 - Loading private land applications for completion...
+     */
+    public static final String APPLICATION_LOADING_PL_COMPLETION = APPLICATION + "055";
+    
+    /**
+     * cliapp056 - Loading private land applications for approval...
+     */
+    public static final String APPLICATION_LOADING_PL_APPROVAL = APPLICATION + "056";
+    
+    /**
+     * cliapp057 - Loading lodged state land applications...
+     */
+    public static final String APPLICATION_LOADING_SL_LODGED = APPLICATION + "057";
+    
+    /**
+     * cliapp058 - Loading state land applications for survey plan capturing...
+     */
+    public static final String APPLICATION_LOADING_SL_PLAN_CAPTURING = APPLICATION + "058";
+    
+    /**
+     * cliapp059 - Loading state land applications for completion...
+     */
+    public static final String APPLICATION_LOADING_SL_COMPLETION = APPLICATION + "059";
+    
+    /**
+     * cliapp060 - Loading state land applications for approval...
+     */
+    public static final String APPLICATION_LOADING_SL_APPROVAL = APPLICATION + "060";
+    
+    /**
+     * cliapp061 - Loading dashboard statistics...
+     */
+    public static final String APPLICATION_LOADING_STATISTICS = APPLICATION + "061";
+    
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
