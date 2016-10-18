@@ -818,6 +818,16 @@ public class ClientMessage {
      */
     public static final String APPLICATION_LOADING_STATISTICS = APPLICATION + "061";
     
+    /**
+     * cliapp062 - Loading approved state land applications...
+     */
+    public static final String APPLICATION_LOADING_SL_APPROVED = APPLICATION + "062";
+    
+    /**
+     * cliapp063 - Loading approved private land applications...
+     */
+    public static final String APPLICATION_LOADING_PL_APPROVED = APPLICATION + "063";
+    
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
