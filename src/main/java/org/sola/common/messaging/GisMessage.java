@@ -53,6 +53,8 @@ public class GisMessage {
     private static final String PRINT_PUBLIC_DISPLAY = MSG_PREFIX + "_public_display_";
     private static final String SPATIAL_UNIT_GENERIC = MSG_PREFIX + "_spatial_unit_";
     private static final String SPATIAL_UNIT_GROUP = MSG_PREFIX + "_spatial_unit_group_";
+    private static final String MEASURE = MSG_PREFIX + "measure";
+    
    // General Messages
     /** gisgnrl001 - Error starting the service */
     public static final String GENERAL_ERROR_STARTING_SERVICE = GENERAL + "001";
@@ -352,7 +354,13 @@ public class GisMessage {
     /* The merging resulted in a multipolygon. You must change the source polygons in order that the merging can result in a single polygon. */
     public static final String SPATIAL_UNIT_GROUP_MERGED_GEOMETRY_NOT_POLYGON = SPATIAL_UNIT_GROUP + "01";
     
-    
+    // Measure Tool
+    /* gismeasure001 - Distance is {0}m */
+    public static final String MEASURE_DISTANCE_METERS = MEASURE + "001";
+    /* gismeasure002 - Distance is {0}km */
+    public static final String MEASURE_DISTANCE_KILOMETERS = MEASURE + "002";
+    /* gismeasure003 - Click to measure distance */
+    public static final String MEASURE_TOOLTIP = MEASURE + "003";
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
     public static final String TEST001 = TEST + "001";
